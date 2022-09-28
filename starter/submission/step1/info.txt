@@ -1,0 +1,3 @@
+To solve the hello-world App Deployment following things were done:
+* Changed path to '/healthz' in 'livenessProbe' (line 28).
+* Added 'nodePort: 30091' to Service 'ports' (line 48).

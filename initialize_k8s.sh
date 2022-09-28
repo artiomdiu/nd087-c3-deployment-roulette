@@ -12,3 +12,5 @@ helm install kube-ops-view \
     --set service.type=LoadBalancer \
     --set rbac.create=True
 kubectl get svc kube-ops-view | tail -n 1 | awk '{ print "Kube-ops-view URL = http://"$4 }'
+
+kubectl apply -f starter/apps/metrics-server
