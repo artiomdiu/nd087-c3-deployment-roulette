@@ -1,1 +1,1 @@
-bloaty-mcbloatface application uses the most memory (about 17*3Mi=51Mi)
+hello-world application uses the most memory (about 21Mi)
